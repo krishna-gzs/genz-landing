@@ -102,6 +102,16 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 2.1rem;
 }
 
+#main_title {
+  font-family: "montserrat", sans-serif;
+  font-weight:500;
+}
+
+#main_desc{
+  font-family: "montserrat", sans-serif;
+  font-weight:500;
+}
+
 h3, .h03, h4, .h04 {
   margin-bottom: 1.8rem;
 }
@@ -1260,10 +1270,10 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background: url("../images/logo.png") no-repeat center;
-  background-size: 80px 80px;
+  background-size: 60px 60px;
   font: 0/0 a;
   text-shadow: none;
   color: transparent;
@@ -1489,9 +1499,9 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 50px;
-    height: 50px;
-    background-size: 50px 50px;
+    width: 40px;
+    height: 40px;
+    background-size: 40px 40px;
   }
 }
 #header-menu-trigger{
@@ -1781,7 +1791,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #about {
   position: relative;
   padding: 4.2rem 0 12rem;
-  background-color: #FFFFFF;
+  background-color: #080808;
   min-height: 696px;
   text-align: center;
 }
@@ -1789,13 +1799,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   max-width: 850px;
 }
 #about span {
-  color: #07617d;
+  color: #f9a828;
 }
 #about h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
   line-height: 1.667;
-  color: #07617d;
+  color: #f9a828;
   text-transform: uppercase;
   letter-spacing: .3rem;
   position: relative;
@@ -1812,7 +1822,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-family: "librebaskerville-bold", serif;
   font-size: 4rem;
   line-height: 1.8;
-  color: #2e383f;
+  color: #ffffff;
   margin-top: 6rem;
 }
 
@@ -1889,7 +1899,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services.jpeg);
+  /* background-image: url(../images/services.jpeg); */
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
